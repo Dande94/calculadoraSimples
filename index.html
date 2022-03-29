@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <main>
+        <div id="geral">
+           <h1 id="titulo">Calculadora Básica</h1> 
+
+           <input type="text" name="visor" id="visor" readonly value="">
+
+           <button type="buttin" id="clear" onclick="limpar()" class="botoes">C</button>
+
+           <button type="button" id="n1" onclick="inserir('1')" class="botoes">1</button>
+           <button type="button" id="n2" onclick="inserir('2')" class="botoes">2</button>
+           <button type="button" id="n3" onclick="inserir('3')" class="botoes">3</button>
+           <button type="button" id="opMais" onclick="inserir('+')" class="botoes">+</button>
+
+           <button type="button" id="n4" onclick="inserir('4')" class="botoes">4</button>
+           <button type="button" id="n5" onclick="inserir('5')" class="botoes">5</button>
+           <button type="button" id="n6" onclick="inserir('6')" class="botoes">6</button>
+           <button type="button" id="opMenos" onclick="inserir('-')" class="botoes">-</button>
+
+           <button type="button" id="n7" onclick="inserir('7')" class="botoes">7</button>
+           <button type="button" id="n8" onclick="inserir('8')" class="botoes">8</button>
+           <button type="button" id="n9" onclick="inserir('9')" class="botoes">9</button>
+           <button type="button" id="opMult" onclick="inserir('*')" class="botoes">*</button>
+
+           <button type="button" id="n0" onclick="inserir('0')" class="botoes">0</button>
+           <button type="button" id="ponto" onclick="inserir('.')" class="botoes">.</button>
+           <button type="button" id="igual" onclick="calcular()"class="botoes">=</button>
+           <button type="button" id="opDiv" onclick="inserir('/')" class="botoes">/</button>
+
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

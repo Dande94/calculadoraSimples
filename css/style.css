@@ -1,0 +1,101 @@
+#titulo{
+    grid-area: titulo;
+}
+#visor{
+    grid-area: visor;
+}
+#clear{
+    grid-area: clear;
+}
+#n1{
+    grid-area: n1;
+}
+#n2{
+    grid-area: n2;
+}
+#n3{
+    grid-area: n3;
+}
+#n4{
+    grid-area: n4;
+}
+#n5{
+    grid-area: n5;
+}
+#n6{
+    grid-area: n6;
+}
+#n7{
+    grid-area: n7;
+}
+#n8{
+    grid-area: n8;
+}
+#n9{
+    grid-area: n9;
+}
+#n0{
+    grid-area: n0;
+}
+#opMais{
+    grid-area: opMais;
+}
+#opMenos{
+    grid-area: opMenos;
+}
+#opMult{
+    grid-area: opMult;
+}
+#opDiv{
+    grid-area: opDiv;
+}
+#igual{
+    grid-area: igual;
+}
+#ponto{
+    grid-area: ponto;
+}
+
+#geral{
+    display: grid;
+    background-color: rgb(12, 4, 56);
+    margin: 0 auto;
+    width: 40%;
+    grid-template-areas: 
+    'titulo titulo titulo titulo'
+    'visor visor visor visor'
+    'clear clear clear clear'
+    'n1 n2 n3 opMais'
+    'n4 n5 n6 opMenos'
+    'n7 n8 n9 opMult'
+    'n0 ponto igual opDiv'
+    ;
+    padding: 10px;
+}
+
+#titulo{
+    color: #CCC;
+    font-family: 'Century Gothic';
+    text-align: center;
+    font-size: 30px;
+}
+
+#visor{
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botoes{
+    padding: 10px;
+    background-color: midnightblue;
+    border: 1px solid limegreen;
+    color: #CCC;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.botoes:hover{
+    background-color: blueviolet;
+}
